@@ -23,38 +23,21 @@ class Coordinator: ObservableObject {
         UIApplication.shared.windows.first?.makeKeyAndVisible()
     }
     
-//    private func getSwiftUIView(for screenType: ScreenType) -> some View {
-//        switch screenType {
-//        case .screen1:
-//            return AnyView(Screen1SwiftUIView(coordinator: self))
-//        case .screen2:
-//            return AnyView(Screen2SwiftUIView(coordinator: self))
-//        case .screen3:
-//            return AnyView(Screen3SwiftUIView(coordinator: self))
-//        case .screen4:
-//            return AnyView(Screen4SwiftUIView(coordinator: self))
-//        case .screen5:
-//            return AnyView(Screen5SwiftUIView(coordinator: self))
-//        }
-//    }
-    private func getSwiftUIView<V: View>(for screenType: ScreenType, viewModel: Screen1ViewModel) -> some View {
+    private func getSwiftUIView(for screenType: ScreenType) -> some View {
         switch screenType {
         case .screen1:
-            return AnyView(Screen1SwiftUIView(viewModel: viewModel))
+            return AnyView(Screen1SwiftUIView(coordinator: self))
         case .screen2:
-            return AnyView(Screen2SwiftUIView(viewModel: viewModel))
+            return AnyView(Screen2SwiftUIView(coordinator: self))
         case .screen3:
-            return AnyView(Screen3SwiftUIView(viewModel: viewModel))
+            return AnyView(Screen3SwiftUIView(coordinator: self))
         case .screen4:
-            return AnyView(Screen4SwiftUIView(viewModel: viewModel))
+            return AnyView(Screen4SwiftUIView(coordinator: self))
         case .screen5:
-            return AnyView(Screen5SwiftUIView(viewModel: viewModel))
+            return AnyView(Screen5SwiftUIView(coordinator: self))
         }
     }
-
-    private func getSwiftUIView(for screenType: ScreenType, viewModel: Screen1ViewModel) -> some View {
-        return getSwiftUIView(for: screenType, viewModel: viewModel)
-    }
+    
     
     
     
