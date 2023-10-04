@@ -5,12 +5,12 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            
-            List(coordinator.screenStack, id: \.self) { screen in
-                Text(screenToString(screen))
+            List(self.coordinator.screenStack, id: \.self) { screenInfo in
+                        Text(screenInfo.screenType.screenName)
             }
-            
-            
+
+            Text("Main")
+
             Button(action: {
                 coordinator.navigateTo(screenType: .screen1)
             }) {
@@ -38,18 +38,22 @@ struct ContentView: View {
             }
         }
     }
+    
     private func screenToString(_ screen: ScreenType) -> String {
-           switch screen {
-           case .screen1:
-               return "Screen 1"
-           case .screen2:
-               return "Screen 2"
-           case .screen3:
-               return "Screen 3"
-           case .screen4:
-               return "Screen 4"
-           case .screen5:
-               return "Screen 5"
-           }
-       }
+        switch screen {
+        case .screen1:
+            return "Screen 1"
+        case .screen2:
+            return "Screen 2"
+        case .screen3:
+            return "Screen 3"
+        case .screen4:
+            return "Screen 4"
+        case .screen5:
+            return "Screen 5"
+        }
+    }
 }
+
+
+

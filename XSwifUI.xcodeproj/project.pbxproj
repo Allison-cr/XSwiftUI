@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE62EE3D2ACE0E3400C3ACFF /* Screen1SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE62EE3C2ACE0E3400C3ACFF /* Screen1SwiftUIView.swift */; };
+		FE62EE3F2ACE0EC000C3ACFF /* Screen1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE62EE3E2ACE0EC000C3ACFF /* Screen1ViewModel.swift */; };
 		FEF9574B2ACC538000B6F678 /* XSwifUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF9574A2ACC538000B6F678 /* XSwifUIApp.swift */; };
 		FEF9574D2ACC538000B6F678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF9574C2ACC538000B6F678 /* ContentView.swift */; };
 		FEF9574F2ACC538100B6F678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF9574E2ACC538100B6F678 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE62EE3C2ACE0E3400C3ACFF /* Screen1SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1SwiftUIView.swift; sourceTree = "<group>"; };
+		FE62EE3E2ACE0EC000C3ACFF /* Screen1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1ViewModel.swift; sourceTree = "<group>"; };
 		FEF957472ACC538000B6F678 /* XSwifUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSwifUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF9574A2ACC538000B6F678 /* XSwifUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSwifUIApp.swift; sourceTree = "<group>"; };
 		FEF9574C2ACC538000B6F678 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				FEF9574C2ACC538000B6F678 /* ContentView.swift */,
 				FEF957662ACC568700B6F678 /* screens */,
 				FEF957582ACC53A500B6F678 /* ScreenInfo.swift */,
+				FE62EE3C2ACE0E3400C3ACFF /* Screen1SwiftUIView.swift */,
+				FE62EE3E2ACE0EC000C3ACFF /* Screen1ViewModel.swift */,
 				FEF9575A2ACC53BE00B6F678 /* Coordinator.swift */,
 				FEF9574E2ACC538100B6F678 /* Assets.xcassets */,
 				FEF957502ACC538100B6F678 /* Preview Content */,
@@ -88,10 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				FEF9575C2ACC542900B6F678 /* screen1.swift */,
+				FEF9575E2ACC543600B6F678 /* screen2.swift */,
 				FEF957602ACC566F00B6F678 /* screen3.swift */,
 				FEF957622ACC567A00B6F678 /* screen4.swift */,
 				FEF957642ACC568100B6F678 /* screen5.swift */,
-				FEF9575E2ACC543600B6F678 /* screen2.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 				FEF9575F2ACC543600B6F678 /* screen2.swift in Sources */,
 				FEF957632ACC567A00B6F678 /* screen4.swift in Sources */,
 				FEF957592ACC53A500B6F678 /* ScreenInfo.swift in Sources */,
+				FE62EE3F2ACE0EC000C3ACFF /* Screen1ViewModel.swift in Sources */,
+				FE62EE3D2ACE0E3400C3ACFF /* Screen1SwiftUIView.swift in Sources */,
 				FEF9575D2ACC542900B6F678 /* screen1.swift in Sources */,
 				FEF9574B2ACC538000B6F678 /* XSwifUIApp.swift in Sources */,
 				FEF957652ACC568100B6F678 /* screen5.swift in Sources */,

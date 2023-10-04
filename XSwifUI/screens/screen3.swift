@@ -1,13 +1,41 @@
-import SwiftUI
-
-struct screen3: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct screen3_Previews: PreviewProvider {
-    static var previews: some View {
-        screen3()
-    }
-}
+//import SwiftUI
+//
+//struct Screen3SwiftUIView: View {
+//    @ObservedObject var coordinator: Coordinator
+//    
+//    var body: some View {
+//        VStack {
+//            Text("Screen 3 Content")
+//                .navigationBarTitle("Screen 3", displayMode: .inline)
+//            List(self.coordinator.screenStack, id: \.self) { screenInfo in
+//                        Text(screenInfo.screenType.screenName)
+////            }
+//            Button(action: {
+//                coordinator.navigateTo(screenType: .screen1)
+//            }) {
+//                Text("Navigate to Screen 1")
+//            }
+//            Button(action: {
+//                coordinator.navigateTo(screenType: .screen2)
+//            }) {
+//                Text("Navigate to Screen 2")
+//            }
+//            Button(action: {
+//                coordinator.navigateTo(screenType: .screen3)
+//            }) {
+//                Text("Navigate to Screen 3")
+//            }
+//            Button(action: {
+//                coordinator.navigateTo(screenType: .screen4)
+//            }) {
+//                Text("Navigate to Screen 4")
+//            }
+//            Button(action: {
+//                coordinator.navigateTo(screenType: .screen5)
+//            }) {
+//                Text("Navigate to Screen 5")
+//            }
+//       
+//        }
+//    }
+//}
