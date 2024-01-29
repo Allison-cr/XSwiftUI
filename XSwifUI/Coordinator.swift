@@ -37,8 +37,4 @@ class Coordinator: ObservableObject {
             return AnyView(Screen5SwiftUIView(coordinator: self))
         }
     }
-    
-    
-    
-    
 }

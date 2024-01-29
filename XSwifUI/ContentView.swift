@@ -6,9 +6,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             List(self.coordinator.screenStack, id: \.self) { screenInfo in
-                        Text(screenInfo.screenType.screenName)
+                Text(screenInfo.screenType.screenName)
             }
-
             Text("Main")
 
             Button(action: {
