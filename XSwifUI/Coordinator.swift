@@ -25,7 +25,7 @@ class Coordinator: ObservableObject {
     
     private func getSwiftUIView(for screenType: ScreenType) -> some View {
         switch screenType {
-        case .screen1:
+        case .screen1:#imageLiteral(resourceName: "simulator_screenshot_EBF10AC1-8718-4ED4-BE6F-62D317DDE658.png")
             return AnyView(Screen1SwiftUIView(coordinator: self))
         case .screen2:
             return AnyView(Screen2SwiftUIView(coordinator: self))
